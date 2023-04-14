@@ -1,0 +1,10 @@
+{
+	"name": "ls_formula1nahdl_storage",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://formula1nahdl.dfs.core.windows.net/"
+		}
+	}
+}
