@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Execute Ingestion",
+				"name": "Execute Ingestions",
 				"type": "ExecutePipeline",
 				"dependsOn": [],
 				"userProperties": [],
@@ -22,11 +22,11 @@
 				}
 			},
 			{
-				"name": "Execute Transformation",
+				"name": "Execute Transformations",
 				"type": "ExecutePipeline",
 				"dependsOn": [
 					{
-						"activity": "Execute Ingestion",
+						"activity": "Execute Ingestions",
 						"dependencyConditions": [
 							"Succeeded"
 						]
