@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "databricks-f1-adf-nah"
+		},
+		"ls_databricks_formula1_ws_properties_typeProperties_existingClusterId": {
+			"value": "0309-035739-yy2m2bq7"
+		},
+		"ls_formula1nahdl_storage_properties_typeProperties_url": {
+			"value": "https://formula1nahdl.dfs.core.windows.net/"
+		},
+		"tr_process_formula1_data_properties_pipeline_parameters_p_window_end_date": {
+			"value": "@trigger().outputs.windowEndTime"
+		}
+	}
+}
